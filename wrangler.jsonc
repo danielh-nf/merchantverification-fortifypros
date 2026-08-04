@@ -3,5 +3,11 @@
   "compatibility_date": "2025-10-22",
   "assets": {
     "directory": "./assets"
-  }
+  },
+  "routes": [
+    {
+      "pattern": "secure.fortifypros.com/.well-known/apple-developer-merchantid-domain-association.txt",
+      "zone_name": "fortifypros.com"
+    }
+  ]
 }
