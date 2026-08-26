@@ -1,8 +1,10 @@
 {
   "name": "apple-merchant-verification-fortifypros",
   "compatibility_date": "2025-10-22",
+  "main": "src/index.js",
   "assets": {
-    "directory": "./assets"
+    "directory": "./assets",
+    "binding": "ASSETS"
   },
   "routes": [
     {
